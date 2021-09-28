@@ -1,0 +1,19 @@
+.container-conteudo {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.container-conteudo iframe {
+   flex-basis: 350px;
+   flex-grow: 1;
+   transform: scale(0.95);
+   transition: transform 150ms ease-in-out;
+}
+
+.container-conteudo iframe:hover {
+   transform: scale(1);
+   transition: transform 150ms ease-in-out;
+}

@@ -1,0 +1,23 @@
+.framework-list {
+   margin-right: auto;
+}
+
+.framework-list a {
+   
+   font-size: 1.2rem;
+   color: var(--color-purpleUltraLight);
+   transition: opacity 150ms ease;
+   
+}
+
+.framework-list a:hover {
+   opacity: .7;
+   transition: opacity 150ms ease;
+}
+
+.framework-list li {
+   color: var(--color-white);
+   margin: 20px 30px;
+   list-style:disc;
+   font-style: italic;
+}

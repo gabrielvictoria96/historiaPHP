@@ -1,0 +1,77 @@
+.content {
+   max-width: 1500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   margin: 0 auto;
+   padding: 25px 75px;
+   margin-bottom: 90px;
+}
+
+.content h2 {
+   font-size: 3rem;
+   color: var(--color-purpleLight);
+   margin-bottom: 25px;
+   text-align: center;
+}
+
+.content h2 span {
+   color: var(--color-lightGreen);
+}
+
+.content h3 {
+   color: var(--color-lightGreen);
+   font-size: 1.7rem;
+   letter-spacing: 2px;
+   padding: 20px 0;
+   margin-right: auto;
+   text-align: center;
+}
+
+
+
+.content p {
+   font-size: 1.22rem;
+   color: var(--color-lightWhite);
+   line-height: 40px;
+   
+}
+
+.content p span {
+   color: var(--color-lightGreen);
+}
+
+.center {
+   margin: 0 auto;
+   text-align: center;
+}
+
+.criador img {
+   width: 240px;
+   height: 240px;
+   border-radius: 50%;
+   margin-bottom: 40px;
+   border: 2px solid var(--color-lightGreen);
+}
+
+.content h4 {
+   font-size: 1.5rem;
+   color: var(--color-green);
+   margin-right: auto;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+
+.content h5 {
+   font-size: 1.2rem;
+   color: var(--color-magenta);
+   margin-right: auto;
+   text-transform: uppercase;
+   margin-top: 40px;
+   margin-bottom: 20px;
+   font-weight: 300;
+   text-shadow: 0 0 20px var(--color-lightMagenta);
+}
