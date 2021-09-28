@@ -106,7 +106,7 @@ nav {
    justify-content: center;
    flex-direction: column;
    align-items: center;
-   margin-top: -130px;
+   margin-top: -70px;
    flex-wrap: wrap;
 }
 
@@ -225,6 +225,7 @@ nav {
    margin-top: 40px;
    margin-bottom: 20px;
    font-weight: 300;
+   text-shadow: 0 0 20px var(--color-lightMagenta);
 }
 
 .framework-list {
@@ -236,6 +237,7 @@ nav {
    font-size: 1.2rem;
    color: var(--color-purpleUltraLight);
    transition: opacity 150ms ease;
+   
 }
 
 .framework-list a:hover {
@@ -245,5 +247,6 @@ nav {
 
 .framework-list li {
    color: var(--color-white);
-   margin: 20px 0;
+   margin: 20px 30px;
+   list-style:disc;
 }
