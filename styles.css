@@ -102,12 +102,16 @@ nav {
    flex-wrap: wrap;
 }
 
+
 .title h1 {
    color: var(--color-lightWhite);
    font-weight: 500;
    font-size: 3.5rem;
    text-align: center;
    margin-bottom: 50px;
+   overflow: hidden;
+   white-space: nowrap;
+   animation: typing 3.5s steps(40, end);
 }
 
 .title h1 span {
@@ -115,6 +119,8 @@ nav {
    font-size: 2.5rem;
 
 }
+
+
 
 .btn-title {
    width: 200px;
@@ -296,24 +302,42 @@ nav {
    opacity: .6;
 }
 
-.typing {
-   width: 35%;
-   animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-   white-space: nowrap;
-   overflow: hidden;
-   border-right: 3px solid;
-   font-size: 2em;
+
+
+@keyframes typing {
+   from {
+     width: 0;
+   }
+   to {
+     width: 100%;
+   }
  }
 
- 
- @keyframes typing {
-   from {
-     width: 0
-   }
+
+ @media screen and (max-width: 720px) {
+    .title h1,
+    .title h1 span {
+       font-size: 2.4rem;
+    }
  }
-     
- @keyframes blink {
-   50% {
-     border-color: transparent
+
+ @media screen and (max-width: 520px) {
+   .title h1,
+   .title h1 span {
+      font-size: 2rem;
    }
- }
+}
+
+@media screen and (max-width: 390px) {
+   .title h1,
+   .title h1 span {
+      font-size: 1.5rem;
+   }
+}
+
+@media screen and (max-width: 300px) {
+   .title h1,
+   .title h1 span {
+      font-size: 1.2rem;
+   }
+}
